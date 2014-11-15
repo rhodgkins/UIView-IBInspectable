@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="UIView_IBInspectable" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gnG-yK-D8p" userLabel="none">
+                                <rect key="frame" x="48" y="68" width="94" height="94"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gnG-yK-D8p" secondAttribute="height" multiplier="1:1" id="t5p-TY-ZYM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWw-FP-Dxe" userLabel="cornerRadius">
+                                <rect key="frame" x="190" y="68" width="94" height="94"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3VN-T9-2CK" userLabel="borderWidth">
+                                <rect key="frame" x="332" y="68" width="94" height="94"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YhL-hk-suY" userLabel="borderColor">
+                                <rect key="frame" x="474" y="68" width="94" height="94"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g73-Wy-kON" userLabel="shadowColor">
+                                <rect key="frame" x="48" y="210" width="94" height="94"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UAE-Tl-aon" userLabel="shadowOpacity">
+                                <rect key="frame" x="190" y="210" width="94" height="94"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="laA-yL-PgZ" userLabel="shadowOffset">
+                                <rect key="frame" x="332" y="210" width="94" height="94"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="100" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eV-lX-cXm" userLabel="shadowRadius">
+                                <rect key="frame" x="474" y="210" width="94" height="94"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLH-k7-TJc" userLabel="all">
+                                <rect key="frame" x="48" y="352" width="94" height="94"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="20" height="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gnG-yK-D8p" firstAttribute="bottom" secondItem="dWw-FP-Dxe" secondAttribute="bottom" id="2GJ-kE-AMG"/>
+                            <constraint firstItem="gnG-yK-D8p" firstAttribute="top" secondItem="dWw-FP-Dxe" secondAttribute="top" id="5dK-Op-u3R"/>
+                            <constraint firstItem="YhL-hk-suY" firstAttribute="leading" secondItem="3VN-T9-2CK" secondAttribute="trailing" constant="48" id="8RO-lG-UQx"/>
+                            <constraint firstItem="UAE-Tl-aon" firstAttribute="top" secondItem="g73-Wy-kON" secondAttribute="top" id="BeA-wB-Nit"/>
+                            <constraint firstItem="gnG-yK-D8p" firstAttribute="leading" secondItem="g73-Wy-kON" secondAttribute="leading" id="CKN-Lb-VnQ"/>
+                            <constraint firstItem="UAE-Tl-aon" firstAttribute="width" secondItem="laA-yL-PgZ" secondAttribute="width" id="CMc-pl-fwz"/>
+                            <constraint firstItem="g73-Wy-kON" firstAttribute="top" secondItem="gnG-yK-D8p" secondAttribute="bottom" constant="48" id="Fpn-Yt-i6J"/>
+                            <constraint firstItem="YhL-hk-suY" firstAttribute="width" secondItem="3VN-T9-2CK" secondAttribute="width" id="GJ0-zz-UeH"/>
+                            <constraint firstItem="gnG-yK-D8p" firstAttribute="top" secondItem="YhL-hk-suY" secondAttribute="top" id="GSq-hE-FiC"/>
+                            <constraint firstItem="dWw-FP-Dxe" firstAttribute="leading" secondItem="gnG-yK-D8p" secondAttribute="trailing" constant="48" id="HKQ-is-pZl"/>
+                            <constraint firstItem="kLH-k7-TJc" firstAttribute="trailing" secondItem="g73-Wy-kON" secondAttribute="trailing" id="KCX-O8-2Fh"/>
+                            <constraint firstItem="gnG-yK-D8p" firstAttribute="top" secondItem="3VN-T9-2CK" secondAttribute="top" id="VCw-yl-3cu"/>
+                            <constraint firstItem="8eV-lX-cXm" firstAttribute="width" secondItem="laA-yL-PgZ" secondAttribute="width" id="W3C-O6-FOT"/>
+                            <constraint firstItem="gnG-yK-D8p" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="48" id="WQK-qN-EId"/>
+                            <constraint firstItem="3VN-T9-2CK" firstAttribute="leading" secondItem="dWw-FP-Dxe" secondAttribute="trailing" constant="48" id="YDc-ob-h57"/>
+                            <constraint firstItem="8eV-lX-cXm" firstAttribute="top" secondItem="laA-yL-PgZ" secondAttribute="top" id="YeB-bS-PJD"/>
+                            <constraint firstAttribute="trailing" secondItem="YhL-hk-suY" secondAttribute="trailing" constant="32" id="ZbB-gd-gjn"/>
+                            <constraint firstItem="dWw-FP-Dxe" firstAttribute="bottom" secondItem="3VN-T9-2CK" secondAttribute="bottom" id="az3-tc-P0V"/>
+                            <constraint firstItem="UAE-Tl-aon" firstAttribute="bottom" secondItem="g73-Wy-kON" secondAttribute="bottom" id="cXZ-ck-B2S"/>
+                            <constraint firstItem="laA-yL-PgZ" firstAttribute="leading" secondItem="3VN-T9-2CK" secondAttribute="leading" id="cxf-Q3-ypz"/>
+                            <constraint firstItem="UAE-Tl-aon" firstAttribute="leading" secondItem="dWw-FP-Dxe" secondAttribute="leading" id="dif-ZI-cLj"/>
+                            <constraint firstItem="gnG-yK-D8p" firstAttribute="width" secondItem="dWw-FP-Dxe" secondAttribute="width" id="e3s-0S-RFP"/>
+                            <constraint firstItem="YhL-hk-suY" firstAttribute="bottom" secondItem="3VN-T9-2CK" secondAttribute="bottom" id="g1O-xD-xu9"/>
+                            <constraint firstItem="UAE-Tl-aon" firstAttribute="trailing" secondItem="dWw-FP-Dxe" secondAttribute="trailing" id="hjM-GH-Oyy"/>
+                            <constraint firstItem="gnG-yK-D8p" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="48" id="i2n-n8-wbe"/>
+                            <constraint firstItem="gnG-yK-D8p" firstAttribute="height" secondItem="g73-Wy-kON" secondAttribute="height" id="jUq-g5-Rnl"/>
+                            <constraint firstItem="8eV-lX-cXm" firstAttribute="leading" secondItem="YhL-hk-suY" secondAttribute="leading" id="muR-6f-nEo"/>
+                            <constraint firstItem="8eV-lX-cXm" firstAttribute="trailing" secondItem="YhL-hk-suY" secondAttribute="trailing" id="nlK-Xo-TZB"/>
+                            <constraint firstItem="gnG-yK-D8p" firstAttribute="width" secondItem="g73-Wy-kON" secondAttribute="width" id="o7A-Mv-PrC"/>
+                            <constraint firstItem="8eV-lX-cXm" firstAttribute="bottom" secondItem="laA-yL-PgZ" secondAttribute="bottom" id="oWm-9p-sAU"/>
+                            <constraint firstItem="kLH-k7-TJc" firstAttribute="top" secondItem="g73-Wy-kON" secondAttribute="bottom" constant="48" id="q6O-MQ-kka"/>
+                            <constraint firstItem="dWw-FP-Dxe" firstAttribute="width" secondItem="3VN-T9-2CK" secondAttribute="width" id="r0n-bS-tWU"/>
+                            <constraint firstItem="kLH-k7-TJc" firstAttribute="leading" secondItem="g73-Wy-kON" secondAttribute="leading" id="rMY-Gs-CdR"/>
+                            <constraint firstItem="UAE-Tl-aon" firstAttribute="width" secondItem="g73-Wy-kON" secondAttribute="width" id="sWe-Q8-Q5s"/>
+                            <constraint firstItem="laA-yL-PgZ" firstAttribute="trailing" secondItem="3VN-T9-2CK" secondAttribute="trailing" id="vvk-Hw-a4Z"/>
+                            <constraint firstItem="UAE-Tl-aon" firstAttribute="top" secondItem="laA-yL-PgZ" secondAttribute="top" id="xCl-LS-umL"/>
+                            <constraint firstItem="kLH-k7-TJc" firstAttribute="height" secondItem="g73-Wy-kON" secondAttribute="height" id="xI0-vm-5UV"/>
+                            <constraint firstItem="UAE-Tl-aon" firstAttribute="bottom" secondItem="laA-yL-PgZ" secondAttribute="bottom" id="yg8-fo-trC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="allView" destination="kLH-k7-TJc" id="v5s-QO-6Ka"/>
+                        <outlet property="borderColorView" destination="YhL-hk-suY" id="ong-lT-NVW"/>
+                        <outlet property="borderWidthView" destination="3VN-T9-2CK" id="QWA-Ho-wGg"/>
+                        <outlet property="cornerRadiusView" destination="dWw-FP-Dxe" id="X8i-3S-Mrw"/>
+                        <outlet property="noneView" destination="gnG-yK-D8p" id="bZZ-QK-COj"/>
+                        <outlet property="shadowColorView" destination="g73-Wy-kON" id="hz0-39-yNC"/>
+                        <outlet property="shadowOffsetView" destination="laA-yL-PgZ" id="HV3-MF-jyr"/>
+                        <outlet property="shadowOpacityView" destination="UAE-Tl-aon" id="dht-8M-wPX"/>
+                        <outlet property="shadowRadiusView" destination="8eV-lX-cXm" id="HQZ-Qx-u45"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
